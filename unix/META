@@ -1,0 +1,8 @@
+version = "1.0.0"
+requires = "unix"
+description = "Clock implementation compatible with Mirage"
+archive(byte) = "mirage-clock.cma"
+archive(byte, plugin) = "mirage-clock.cma"
+archive(native) = "mirage-clock.cmxa"
+archive(native, plugin) = "mirage-clock.cmxs"
+exists_if = "mirage-clock.cma"
